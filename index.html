@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Calculator</title>
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- styles -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="contact.css" />
+    <!-- Link Swiper's CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+  </head>
+  <body>
+    <header id="home">
+      <!-- navbar -->
+        <nav id="nav">
+            <div class="nav-center">
+          <!-- nav header -->
+                <div class="nav-header">
+                <img src="./good.jpg" class="logo" alt="logo" />
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+          <!-- links -->
+            <div class="links-container">
+            <ul class="links">
+              <li>
+                <a href="#home" class="scroll-link">HOME</a>
+              </li>
+              <li>
+                <a href="#about" class="scroll-link">CALCULATE</a>
+              </li>
+              <li>
+              <a href="#services" class="scroll-link">FAQ</a>
+              </li>
+              <li>
+                <a href="https://www.facebook.com/ninjatoonsanimex" class="scroll-link">CONTACT US</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+      <!-- banner -->
+      <div class="banner">
+        <div class="container">
+          <h1>Calculator Project</h1>
+          <p>
+            This is a age differentiation Calculator. The main purpose to this Calculator
+            is to calculation of age difference easier and more accurate.
+          </p>
+          <a href="#about" class="scroll-link btn btn-white">Calculate With Ease</a>
+        </div>
+      </div>
+    </header>
+    <!-- contact -->
+    <section id="about" class="section about">
+      <div class="title">
+        <h2>Calculate <span>Now!</span></h2>
+      </div>
+      <div class="form">
+        <div class="form-container">
+          <div class="date-inputs">
+            <div class="small">
+              <p>First Age: </p>
+              <input type="date" id="last-date">
+            </div>
+            <div class="big">
+              <p>Second Age: </p>
+              <input type="date" id="first-date">
+            </div>
+          </div>
+          <div class="submit-container">
+            <button class="btn" onclick="submit()">
+              submit
+            </button>
+          </div>
+          <div class="result">
+            <p>RESULT:</p>
+            <div class="cover">
+              <p class="output" id="result">
+              
+              </p>
+            </div>
+          </div>
+        </div>  
+        <img src="./images (2).jpg" alt="">
+      </div>
+    </section>
+      <!-- Services -->
+    <section id="services" class="section about">
+      <div class="title">
+        <h2>FAQ</h2>
+        <p class="faq">
+          What is Age Difference?  <br> <br>
+          The age difference is the difference between two ages. It is
+          the measure where it defines the difference between two ages. 
+          It can be easily calculated by taking the difference beween two Dates,
+          Months, and Years. If the both entities are the same, then there is no
+          difference in age. For example, if Samson was born on 15th January 1998, and Ibrahim
+          was born on 3rd, July 1995, then the age difference between Samson and Ibrahim is 2years, 6months and 13days
+          respectively.
+        </p>
+      </div>
+      <img src="" alt="">
+    </section>
+    <!-- footer -->
+    <footer class="section">
+      <p>
+        copyright &copy; CODEZILAR
+        <span id="date"></span>. all rights reserved
+      </p>
+    </footer>
+    <a class="scroll-link top-link" href="#home">
+    </a>
+    <!-- javascript -->
+    <script src="script.js"></script>
+  </body>
+</html>
